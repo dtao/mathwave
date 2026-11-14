@@ -14,6 +14,10 @@ npm run preview  # serve the build; the service worker only registers in a produ
 
 Installing to a home screen needs HTTPS (or localhost).
 
+## Deploy
+
+Every push to `main` runs the tests, builds, and publishes `dist/` to GitHub Pages (`.github/workflows/deploy.yml`). One-time setup: in the repository's Settings -> Pages, set Source to "GitHub Actions".
+
 ## Layout
 
 ```
